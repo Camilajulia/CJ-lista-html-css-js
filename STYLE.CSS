@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(135, 137, 115);
+    margin:o;
+    padding: 20px;
+    color: blanchedalmond;
+}
+h1{color: calc();
+    margin-bottom: 10px;
+}
+h4{color: brown;
+
+}
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
