@@ -10,7 +10,7 @@ h1{color: calc();
 h4{color: brown;
 
 }
-.classes{
+.galeria{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
