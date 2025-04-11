@@ -1,8 +1,8 @@
 body{
     background-color: rgb(135, 137, 115);
     margin:o;
-    padding: 20px;
-    color: blanchedalmond;
+    padding: 40px;
+    color: rgb(229, 156, 46);
 }
 h1{color: calc();
     margin-bottom: 10px;
@@ -21,6 +21,24 @@ h4{color: brown;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
     padding: 10px;
+    flex: 1 1 calc(33.33% - 20px);
+    text-align: center;
 
+}
 
+.galeria-item h4{
+    margin: 10px 0px;
+    color: rgb(111 85 47);
+    font-size: 25px;
+}
+.galeria-item img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 4px;
+    transition: transform O.5s ease;
+}
+
+.galeria-item img:hover{
+    transform: scale(1.45);
 }
