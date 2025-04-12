@@ -4,8 +4,13 @@ body{
     padding: 40px;
     color: rgb(229, 156, 46);
 }
-h1{color: calc();
+h1{
+    text-align: center;
     margin-bottom: 10px;
+    font-size: 3em;
+    background: linear-gradient(to right,#BCB4AC,#FAB971);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 h4{color: brown;
 
@@ -36,9 +41,23 @@ h4{color: brown;
     width: 400px;
     border-radius: 10px;
     margin: 4px;
-    transition: transform O.5s ease;
+    transition: transform O.8s ease;
 }
 
 .galeria-item img:hover{
-    transform: scale(1.45);
+    transform: scale(1.25);
+    box-shadow: 0 3px 6px;
+}
+
+.galeria-item{
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    margin: 2px;
+    transition: transform O.5s ease;
+}
+
+.galeria-item:hover{
+    transform: scale(1.01);
+    box-shadow: 0 3px 6px;
 }
